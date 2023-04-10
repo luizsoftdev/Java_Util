@@ -10,6 +10,7 @@ public class TesteArrayReferencias {
     public static void main(String[] args) {
         Object[] referencias = new Object[5];//Inicializa com o valor null
 
+        System.out.println(referencias.length);
         ContaCorrente cc1 = new ContaCorrente(22,11);
         referencias[0] = cc1;
 
